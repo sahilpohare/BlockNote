@@ -27,7 +27,7 @@ export class CustomQueryManager extends SlashMenuQuery<
     const data = { search: q };
 
     const categories = ["complaints", "medicine"];
-    let reqs = await Promise.all(
+    const reqs = await Promise.all(
       categories.map((c) =>
         fetch(url(c), {
           method: "POST",
