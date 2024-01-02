@@ -1,7 +1,7 @@
 {
   "name": "@sahilpohare-blocknote/tests",
   "private": true,
-  "version": "0.10.2-slash-menu",
+  "version": "0.10.2",
   "scripts": {
     "build": "tsc",
     "lint": "eslint src --max-warnings 0",
@@ -16,10 +16,10 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@sahilpohare-blocknote/core": "^0.10.2-slash-menu",
-    "@sahilpohare-blocknote/react": "^0.10.2-slash-menu",
     "@playwright/experimental-ct-react": "^1.38.1",
     "@playwright/test": "^1.38.1",
+    "@sahilpohare-blocknote/core": "^0.10.2",
+    "@sahilpohare-blocknote/react": "^0.10.2",
     "eslint": "^8.10.0",
     "react-icons": "^4.3.1",
     "rimraf": "^5.0.5"

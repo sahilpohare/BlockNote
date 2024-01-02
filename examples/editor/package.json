@@ -1,7 +1,7 @@
 {
   "name": "@sahilpohare-blocknote/example-editor",
   "private": true,
-  "version": "0.10.2-slash-menu",
+  "version": "0.10.2",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -10,9 +10,9 @@
     "clean": "rimraf dist"
   },
   "dependencies": {
-    "@sahilpohare-blocknote/core": "^0.10.2-slash-menu",
-    "@sahilpohare-blocknote/react": "^0.10.2-slash-menu",
     "@mantine/core": "^5.6.1",
+    "@sahilpohare-blocknote/core": "^0.10.2",
+    "@sahilpohare-blocknote/react": "^0.10.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.20.0",
