@@ -1,4 +1,4 @@
-import { BlockSchema, PartialBlock } from "@blocknote/core";
+import { BlockSchema, PartialBlock } from "@sahilpohare-blocknote/core";
 import { Box, Menu } from "@mantine/core";
 import { ReactNode, useCallback, useRef, useState } from "react";
 import { HiChevronRight } from "react-icons/hi";

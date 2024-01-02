@@ -1,4 +1,7 @@
-import { BlockSchemaWithBlock, DefaultBlockSchema } from "@blocknote/core";
+import {
+  BlockSchemaWithBlock,
+  DefaultBlockSchema,
+} from "@sahilpohare-blocknote/core";
 import { MdDragIndicator } from "react-icons/md";
 import { TableHandle } from "./TableHandle";
 import type { TableHandleProps } from "./TableHandlePositioner";

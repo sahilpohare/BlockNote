@@ -7,11 +7,11 @@ import {
   DefaultStyleSchema,
   InlineContentSchema,
   SideMenuProsemirrorPlugin,
-} from "@blocknote/core";
+} from "@sahilpohare-blocknote/core";
 import Tippy from "@tippyjs/react";
 import { FC, useEffect, useMemo, useRef, useState } from "react";
 
-import { StyleSchema } from "@blocknote/core";
+import { StyleSchema } from "@sahilpohare-blocknote/core";
 import { DefaultSideMenu } from "./DefaultSideMenu";
 import { DragHandleMenuProps } from "./DragHandleMenu/DragHandleMenu";
 

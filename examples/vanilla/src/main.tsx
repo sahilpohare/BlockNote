@@ -1,4 +1,4 @@
-import { BlockNoteEditor } from "@blocknote/core";
+import { BlockNoteEditor } from "@sahilpohare-blocknote/core";
 import "./index.css";
 import { addFormattingToolbar } from "./ui/addFormattingToolbar";
 import { addHyperlinkToolbar } from "./ui/addHyperlinkToolbar";

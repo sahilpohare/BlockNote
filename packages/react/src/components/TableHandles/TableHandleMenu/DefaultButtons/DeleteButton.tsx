@@ -2,7 +2,7 @@ import {
   DefaultBlockSchema,
   PartialBlock,
   TableContent,
-} from "@blocknote/core";
+} from "@sahilpohare-blocknote/core";
 import { TableHandleMenuProps } from "../TableHandleMenu";
 import { TableHandleMenuItem } from "../TableHandleMenuItem";
 

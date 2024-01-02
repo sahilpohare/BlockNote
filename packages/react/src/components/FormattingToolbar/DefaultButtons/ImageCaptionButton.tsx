@@ -1,4 +1,8 @@
-import { BlockNoteEditor, BlockSchema, PartialBlock } from "@blocknote/core";
+import {
+  BlockNoteEditor,
+  BlockSchema,
+  PartialBlock,
+} from "@sahilpohare-blocknote/core";
 import {
   ChangeEvent,
   KeyboardEvent,

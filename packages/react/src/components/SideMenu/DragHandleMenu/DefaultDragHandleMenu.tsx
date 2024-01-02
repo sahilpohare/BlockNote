@@ -1,4 +1,4 @@
-import { BlockSchema } from "@blocknote/core";
+import { BlockSchema } from "@sahilpohare-blocknote/core";
 
 import { BlockColorsButton } from "./DefaultButtons/BlockColorsButton";
 import { RemoveBlockButton } from "./DefaultButtons/RemoveBlockButton";

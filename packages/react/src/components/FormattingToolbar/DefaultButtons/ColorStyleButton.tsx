@@ -3,7 +3,7 @@ import {
   BlockSchema,
   DefaultInlineContentSchema,
   DefaultStyleSchema,
-} from "@blocknote/core";
+} from "@sahilpohare-blocknote/core";
 import { Menu } from "@mantine/core";
 import { useCallback, useMemo, useState } from "react";
 

@@ -7,7 +7,7 @@ import {
   StyleSchema,
   TableHandlesProsemirrorPlugin,
   TableHandlesState,
-} from "@blocknote/core";
+} from "@sahilpohare-blocknote/core";
 import Tippy, { tippy } from "@tippyjs/react";
 import { DragEvent, FC, useEffect, useMemo, useRef, useState } from "react";
 import { DragHandleMenuProps } from "../SideMenu/DragHandleMenu/DragHandleMenu";

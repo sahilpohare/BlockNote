@@ -1,4 +1,4 @@
-import { BlockSchema } from "@blocknote/core";
+import { BlockSchema } from "@sahilpohare-blocknote/core";
 import { AiOutlinePlus } from "react-icons/ai";
 import { SideMenuButton } from "../SideMenuButton";
 import type { SideMenuProps } from "../SideMenuPositioner";

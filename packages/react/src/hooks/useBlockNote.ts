@@ -11,7 +11,7 @@ import {
   defaultInlineContentSpecs,
   defaultStyleSpecs,
   getBlockSchemaFromSpecs,
-} from "@blocknote/core";
+} from "@sahilpohare-blocknote/core";
 import { DependencyList, useMemo, useRef } from "react";
 import { getDefaultReactSlashMenuItems } from "../slashMenuItems/defaultReactSlashMenuItems";
 

@@ -1,4 +1,4 @@
-import { BlockNoteEditor, StyleSchema } from "@blocknote/core";
+import { BlockNoteEditor, StyleSchema } from "@sahilpohare-blocknote/core";
 import { useState } from "react";
 import { useEditorContentChange } from "./useEditorContentChange";
 import { useEditorSelectionChange } from "./useEditorSelectionChange";

@@ -16,7 +16,7 @@ import {
   PropSchema,
   propsToAttributes,
   StyleSchema,
-} from "@blocknote/core";
+} from "@sahilpohare-blocknote/core";
 import {
   NodeViewContent,
   NodeViewProps,

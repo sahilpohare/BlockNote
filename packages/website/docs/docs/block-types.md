@@ -171,15 +171,15 @@ import {
   defaultBlockSchema,
   defaultBlockSpecs,
   defaultProps,
-} from "@blocknote/core";
+} from "@sahilpohare-blocknote/core";
 import {
   BlockNoteView,
   useBlockNote,
   createReactBlockSpec,
   ReactSlashMenuItem,
   getDefaultReactSlashMenuItems,
-} from "@blocknote/react";
-import "@blocknote/core/style.css";
+} from "@sahilpohare-blocknote/react";
+import "@sahilpohare-blocknote/core/style.css";
 import { RiText } from "react-icons/ri";
 
 export default function App() {
@@ -200,7 +200,7 @@ export default function App() {
         const style = {
           fontFamily: block.props.font
         };
-      
+
         return (
           <p ref={contentRef} style={style} />
         );
@@ -208,11 +208,11 @@ export default function App() {
       toExternalHTML: ({ contentRef }) => <p ref={contentRef} />,
       parse: (element) => {
         const font = element.style.fontFamily;
-        
+
         if (font === "") {
           return;
         }
-        
+
         return {
           font: font || undefined,
         };
@@ -353,12 +353,10 @@ const FontparagraphBlock = createReactBlockSpec(
   {
     render: ({ block, contentRef }) => {
       const style = {
-        fontFamily: block.props.font
+        fontFamily: block.props.font,
       };
 
-      return (
-        <p ref={contentRef} style={style} />
-      );
+      return <p ref={contentRef} style={style} />;
     },
     parse: (element) => {
       const font = element.style.fontFamily;

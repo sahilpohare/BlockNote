@@ -62,8 +62,6 @@ export class SlashMenuProsemirrorPlugin<
     > = new SlashMenuQuery()
   ) {
     super();
-
-    console.log("SlashMenuProsemirrorPlugin", queryManager);
     const suggestions = setupSuggestionsMenu<SlashMenuItem, BSchema, I, S>(
       editor,
       (state) => {

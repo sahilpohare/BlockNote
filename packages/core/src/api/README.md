@@ -1,4 +1,4 @@
-### @blocknote/core/src/api
+### @sahilpohare-blocknote/core/src/api
 
 Implements the BlockNote API surface
 

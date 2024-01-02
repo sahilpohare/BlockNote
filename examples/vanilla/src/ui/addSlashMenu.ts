@@ -2,7 +2,7 @@ import {
   BaseSlashMenuItem,
   BlockNoteEditor,
   DefaultBlockSchema,
-} from "@blocknote/core";
+} from "@sahilpohare-blocknote/core";
 import { createButton } from "./util";
 
 export const addSlashMenu = (editor: BlockNoteEditor) => {

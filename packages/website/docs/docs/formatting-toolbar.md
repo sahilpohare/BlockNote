@@ -28,7 +28,7 @@ You can see how this is done in the example below, which has a custom Formatting
 
 ```typescript-vue /App.tsx
 import { useState } from "react";
-import { BlockNoteEditor } from "@blocknote/core";
+import { BlockNoteEditor } from "@sahilpohare-blocknote/core";
 import {
   BlockNoteView,
   FormattingToolbarPositioner,
@@ -41,8 +41,8 @@ import {
   useBlockNote,
   useEditorContentChange,
   useEditorSelectionChange,
-} from "@blocknote/react";
-import "@blocknote/core/style.css";
+} from "@sahilpohare-blocknote/react";
+import "@sahilpohare-blocknote/core/style.css";
 
 const CustomFormattingToolbar = (props: { editor: BlockNoteEditor }) => {
   // Tracks whether the text & background are both blue.
@@ -191,7 +191,7 @@ type ToolbarButtonProps = {
   isSelected?: boolean;
   // Whether the item should be clickable.
   isDisabled?: boolean;
-  // Child components, usually just the button text. If no children are 
+  // Child components, usually just the button text. If no children are
   // given, make sure to provide an icon.
   children?: any;
 };

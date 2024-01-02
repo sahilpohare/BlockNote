@@ -1,4 +1,4 @@
-import { DefaultBlockSchema } from "@blocknote/core";
+import { DefaultBlockSchema } from "@sahilpohare-blocknote/core";
 import { TableHandleMenu, TableHandleMenuProps } from "./TableHandleMenu";
 import { AddButton } from "./DefaultButtons/AddButton";
 import { DeleteButton } from "./DefaultButtons/DeleteButton";

@@ -4,7 +4,7 @@ import {
   InlineContentSchema,
   StyleSchema,
   mergeCSSClasses,
-} from "@blocknote/core";
+} from "@sahilpohare-blocknote/core";
 import { MantineProvider, createStyles } from "@mantine/core";
 import { EditorContent } from "@tiptap/react";
 import { HTMLAttributes, ReactNode, useMemo } from "react";

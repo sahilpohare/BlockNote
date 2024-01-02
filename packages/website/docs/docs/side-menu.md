@@ -32,7 +32,7 @@ You can see how this is done in the example below, which has a custom Side Menu 
 ::: sandbox {template=react-ts}
 
 ```typescript-vue /App.tsx
-import { BlockNoteEditor } from "@blocknote/core";
+import { BlockNoteEditor } from "@sahilpohare-blocknote/core";
 import {
   BlockNoteView,
   DragHandle,
@@ -44,8 +44,8 @@ import {
   SideMenuProps,
   SlashMenuPositioner,
   useBlockNote,
-} from "@blocknote/react";
-import "@blocknote/core/style.css";
+} from "@sahilpohare-blocknote/react";
+import "@sahilpohare-blocknote/core/style.css";
 import { MdDelete } from "react-icons/md";
 
 const CustomSideMenu = (props: SideMenuProps) => (
@@ -95,7 +95,7 @@ You can see how this is done in the example below, which has a custom Drag Handl
 ::: sandbox {template=react-ts}
 
 ```typescript-vue /App.tsx
-import { Block, BlockNoteEditor } from "@blocknote/core";
+import { Block, BlockNoteEditor } from "@sahilpohare-blocknote/core";
 import {
   BlockNoteView,
   DefaultSideMenu,
@@ -107,8 +107,8 @@ import {
   SideMenuPositioner,
   SlashMenuPositioner,
   useBlockNote,
-} from "@blocknote/react";
-import "@blocknote/core/style.css";
+} from "@sahilpohare-blocknote/react";
+import "@sahilpohare-blocknote/core/style.css";
 
 const CustomDragHandleMenu = (props: {
   editor: BlockNoteEditor;

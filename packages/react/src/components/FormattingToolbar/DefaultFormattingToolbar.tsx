@@ -1,4 +1,4 @@
-import { BlockSchema } from "@blocknote/core";
+import { BlockSchema } from "@sahilpohare-blocknote/core";
 
 import { Toolbar } from "../../components-shared/Toolbar/Toolbar";
 import { ColorStyleButton } from "./DefaultButtons/ColorStyleButton";

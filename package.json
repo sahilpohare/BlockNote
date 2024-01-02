@@ -1,5 +1,5 @@
 {
-  "name": "root",
+  "name": "sahilpohare-blocknote",
   "private": true,
   "workspaces": [
     "packages/*",
@@ -17,7 +17,7 @@
     "typescript": "^5.2.2"
   },
   "scripts": {
-    "start": "lerna run --stream --scope @blocknote/example-editor dev",
+    "start": "lerna run --stream --scope @sahilpohare-blocknote/example-editor dev",
     "start:built": "npx serve examples/editor/dist -c ../serve.json",
     "build": "npm run clean && lerna run --stream build --concurrency 1",
     "build:site": "lerna run --stream docs:build --concurrency 1",

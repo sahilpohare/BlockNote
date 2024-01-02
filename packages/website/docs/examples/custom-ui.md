@@ -26,8 +26,8 @@ In this example, we create a custom static Formatting Toolbar from scratch, as w
 ::: sandbox {template=react-ts}
 
 ```typescript-vue /App.tsx
-import "@blocknote/core/style.css";
-import { BlockNoteView, useBlockNote } from "@blocknote/react";
+import "@sahilpohare-blocknote/core/style.css";
+import { BlockNoteView, useBlockNote } from "@sahilpohare-blocknote/react";
 import { CustomFormattingToolbar } from "./CustomFormattingToolbar";
 import { CustomSlashMenu } from "./CustomSlashMenu";
 import { CustomSideMenu } from "./CustomSideMenu";
@@ -55,7 +55,7 @@ import {
   FormattingToolbarProps,
   useEditorContentChange,
   useEditorSelectionChange,
-} from "@blocknote/react";
+} from "@sahilpohare-blocknote/react";
 import { HTMLAttributes, useState } from "react";
 import { MdFormatColorText } from "react-icons/md";
 
@@ -141,7 +141,7 @@ export const ColorMenu = (
 ```
 
 ```typescript-vue /LinkMenu.tsx
-import { FormattingToolbarProps } from "@blocknote/react";
+import { FormattingToolbarProps } from "@sahilpohare-blocknote/react";
 import { HTMLAttributes, useState } from "react";
 
 // Formatting Toolbar sub menu for creating links
@@ -195,7 +195,7 @@ import {
   FormattingToolbarProps,
   useEditorContentChange,
   useEditorSelectionChange,
-} from "@blocknote/react";
+} from "@sahilpohare-blocknote/react";
 import { useState } from "react";
 import {
   MdAddLink,
@@ -373,8 +373,8 @@ export const CustomFormattingToolbar = (props: FormattingToolbarProps) => {
 ```
 
 ```typescript-vue /CustomSlashMenu.tsx
-import { BlockNoteEditor } from "@blocknote/core";
-import { ReactSlashMenuItem, SlashMenuPositioner } from "@blocknote/react";
+import { BlockNoteEditor } from "@sahilpohare-blocknote/core";
+import { ReactSlashMenuItem, SlashMenuPositioner } from "@sahilpohare-blocknote/react";
 import {
   RiH1,
   RiH2,
@@ -459,8 +459,8 @@ export const CustomSlashMenu = (props: { editor: BlockNoteEditor }) => {
 ```
 
 ```typescript-vue /CustomSideMenu.tsx
-import { BlockNoteEditor } from "@blocknote/core";
-import { SideMenuPositioner } from "@blocknote/react";
+import { BlockNoteEditor } from "@sahilpohare-blocknote/core";
+import { SideMenuPositioner } from "@sahilpohare-blocknote/react";
 import { RxDragHandleHorizontal } from "react-icons/rx";
 
 export const CustomSideMenu = (props: { editor: BlockNoteEditor }) => (

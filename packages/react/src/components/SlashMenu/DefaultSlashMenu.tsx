@@ -2,7 +2,7 @@ import { createStyles, Menu } from "@mantine/core";
 import foreach from "lodash.foreach";
 import groupBy from "lodash.groupby";
 
-import { BlockSchema } from "@blocknote/core";
+import { BlockSchema } from "@sahilpohare-blocknote/core";
 import { SlashMenuItem } from "./SlashMenuItem";
 import type { SlashMenuProps } from "./SlashMenuPositioner";
 

@@ -1,4 +1,7 @@
-import { BlockSchemaWithBlock, DefaultBlockSchema } from "@blocknote/core";
+import {
+  BlockSchemaWithBlock,
+  DefaultBlockSchema,
+} from "@sahilpohare-blocknote/core";
 import { Menu, createStyles } from "@mantine/core";
 import { ReactNode, useState } from "react";
 import { DefaultTableHandleMenu } from "./TableHandleMenu/DefaultTableHandleMenu";

@@ -2,7 +2,7 @@ import {
   BlockNoteEditor,
   BlockSchema,
   InlineContentSchema,
-} from "@blocknote/core";
+} from "@sahilpohare-blocknote/core";
 import { useMemo, useState } from "react";
 import {
   RiBold,
@@ -12,11 +12,11 @@ import {
   RiUnderline,
 } from "react-icons/ri";
 
-import { StyleSchema } from "@blocknote/core";
+import { StyleSchema } from "@sahilpohare-blocknote/core";
 import { ToolbarButton } from "../../../components-shared/Toolbar/ToolbarButton";
 import { useEditorChange } from "../../../hooks/useEditorChange";
 import { useSelectedBlocks } from "../../../hooks/useSelectedBlocks";
-import { formatKeyboardShortcut } from "@blocknote/core";
+import { formatKeyboardShortcut } from "@sahilpohare-blocknote/core";
 
 const shortcuts = {
   bold: "Mod+B",

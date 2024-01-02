@@ -27,14 +27,14 @@ You can see how this is done in the example below, which has a custom Slash Menu
 ::: sandbox {template=react-ts}
 
 ```typescript-vue /App.tsx
-import { Block, BlockNoteEditor, PartialBlock } from "@blocknote/core";
+import { Block, BlockNoteEditor, PartialBlock } from "@sahilpohare-blocknote/core";
 import {
   BlockNoteView,
   getDefaultReactSlashMenuItems,
   ReactSlashMenuItem,
   useBlockNote,
-} from "@blocknote/react";
-import "@blocknote/core/style.css";
+} from "@sahilpohare-blocknote/react";
+import "@sahilpohare-blocknote/core/style.css";
 import { HiOutlineGlobeAlt } from "react-icons/hi";
 
 // Command to insert "Hello World" in bold in a new block below.
@@ -101,8 +101,8 @@ import {
   getDefaultReactSlashMenuItems,
   ReactSlashMenuItem,
   useBlockNote
-} from "@blocknote/react";
-import "@blocknote/core/style.css";
+} from "@sahilpohare-blocknote/react";
+import "@sahilpohare-blocknote/core/style.css";
 
 function App() {
   const newSlashMenuItems: ReactSlashMenuItem[] =
@@ -159,7 +159,7 @@ import {
   getDefaultReactSlashMenuItems,
   ReactSlashMenuItem,
   useBlockNote
-} from "@blocknote/react";
+} from "@sahilpohare-blocknote/react";
 
 function App() {
   const newSlashMenuItems: ReactSlashMenuItem[] =

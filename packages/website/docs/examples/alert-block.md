@@ -28,8 +28,8 @@ In addition, we create a Slash Menu item which inserts an `Alert` block and add 
 ::: sandbox {template=react-ts}
 
 ```typescript-vue /App.tsx
-import { defaultBlockSchema } from "@blocknote/core";
-import "@blocknote/core/style.css";
+import { defaultBlockSchema } from "@sahilpohare-blocknote/core";
+import "@sahilpohare-blocknote/core/style.css";
 import {
   BlockNoteView,
   defaultBlockTypeDropdownItems,
@@ -41,7 +41,7 @@ import {
   SideMenuPositioner,
   SlashMenuPositioner,
   useBlockNote,
-} from "@blocknote/react";
+} from "@sahilpohare-blocknote/react";
 import { RiAlertFill } from "react-icons/ri";
 
 import { createAlertBlock, insertAlert } from "./Alert";
@@ -99,12 +99,12 @@ import {
   defaultProps,
   PropSchema,
   SpecificBlock,
-} from "@blocknote/core";
+} from "@sahilpohare-blocknote/core";
 import {
   createReactBlockSpec,
   InlineContent,
   ReactSlashMenuItem,
-} from "@blocknote/react";
+} from "@sahilpohare-blocknote/react";
 import { RiAlertFill } from "react-icons/ri";
 import { MdCancel, MdCheckCircle, MdError, MdInfo } from "react-icons/md";
 import { Menu } from "@mantine/core";

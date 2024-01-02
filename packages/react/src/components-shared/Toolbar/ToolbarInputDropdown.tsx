@@ -2,7 +2,7 @@ import { forwardRef, HTMLAttributes, ReactElement } from "react";
 import { createStyles, Stack } from "@mantine/core";
 
 import { InputProps } from "./ToolbarInputDropdownItem";
-import { mergeCSSClasses } from "@blocknote/core";
+import { mergeCSSClasses } from "@sahilpohare-blocknote/core";
 
 export type ToolbarInputDropdownProps = {
   children:

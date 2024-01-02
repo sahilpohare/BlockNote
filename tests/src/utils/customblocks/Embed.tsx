@@ -1,5 +1,8 @@
-import { BlockSchemaWithBlock, createBlockSpec } from "@blocknote/core";
-import { ReactSlashMenuItem } from "@blocknote/react";
+import {
+  BlockSchemaWithBlock,
+  createBlockSpec,
+} from "@sahilpohare-blocknote/core";
+import { ReactSlashMenuItem } from "@sahilpohare-blocknote/react";
 import { RiLayout5Fill } from "react-icons/ri";
 
 export const Embed = createBlockSpec(

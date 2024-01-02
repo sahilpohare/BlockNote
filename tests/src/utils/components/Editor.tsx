@@ -1,10 +1,10 @@
-import { defaultBlockSpecs } from "@blocknote/core";
-import "@blocknote/core/style.css";
+import { defaultBlockSpecs } from "@sahilpohare-blocknote/core";
+import "@sahilpohare-blocknote/core/style.css";
 import {
   BlockNoteView,
   getDefaultReactSlashMenuItems,
   useBlockNote,
-} from "@blocknote/react";
+} from "@sahilpohare-blocknote/react";
 import { Alert, insertAlert } from "../customblocks/Alert";
 import { Button, insertButton } from "../customblocks/Button";
 import { Embed, insertEmbed } from "../customblocks/Embed";

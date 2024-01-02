@@ -1,4 +1,4 @@
-import type { BlockNoteEditor } from "@blocknote/core";
+import type { BlockNoteEditor } from "@sahilpohare-blocknote/core";
 import { useEffect } from "react";
 
 export function useEditorSelectionChange(

@@ -1,8 +1,8 @@
-import { BlockSchema, InlineContentSchema } from "@blocknote/core";
+import { BlockSchema, InlineContentSchema } from "@sahilpohare-blocknote/core";
 import { useRef, useState } from "react";
 import { RiExternalLinkFill, RiLinkUnlink } from "react-icons/ri";
 
-import { StyleSchema } from "@blocknote/core";
+import { StyleSchema } from "@sahilpohare-blocknote/core";
 import { Toolbar } from "../../components-shared/Toolbar/Toolbar";
 import { ToolbarButton } from "../../components-shared/Toolbar/ToolbarButton";
 import { EditHyperlinkMenu } from "./EditHyperlinkMenu/components/EditHyperlinkMenu";

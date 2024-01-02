@@ -4,8 +4,8 @@ import {
   DefaultBlockSchema,
   DefaultInlineContentSchema,
   defaultStyleSpecs,
-} from "@blocknote/core";
-import "@blocknote/core/style.css";
+} from "@sahilpohare-blocknote/core";
+import "@sahilpohare-blocknote/core/style.css";
 import {
   BlockNoteView,
   FormattingToolbarPositioner,
@@ -13,7 +13,7 @@ import {
   ToolbarButton,
   useActiveStyles,
   useBlockNote,
-} from "@blocknote/react";
+} from "@sahilpohare-blocknote/react";
 
 type WindowWithProseMirror = Window & typeof globalThis & { ProseMirror: any };
 

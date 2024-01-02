@@ -1,4 +1,4 @@
-import { BlockNoteEditor } from "@blocknote/core";
+import { BlockNoteEditor } from "@sahilpohare-blocknote/core";
 import { createButton } from "./util";
 
 export const addSideMenu = (editor: BlockNoteEditor) => {

@@ -1,5 +1,5 @@
 import { useCallback, useMemo, useState } from "react";
-import { BlockNoteEditor, BlockSchema } from "@blocknote/core";
+import { BlockNoteEditor, BlockSchema } from "@sahilpohare-blocknote/core";
 import { RiLink } from "react-icons/ri";
 
 import { ToolbarInputDropdownButton } from "../../../components-shared/Toolbar/ToolbarInputDropdownButton";
@@ -7,7 +7,7 @@ import { ToolbarButton } from "../../../components-shared/Toolbar/ToolbarButton"
 import { EditHyperlinkMenu } from "../../HyperlinkToolbar/EditHyperlinkMenu/components/EditHyperlinkMenu";
 import { useSelectedBlocks } from "../../../hooks/useSelectedBlocks";
 import { useEditorChange } from "../../../hooks/useEditorChange";
-import { formatKeyboardShortcut } from "@blocknote/core";
+import { formatKeyboardShortcut } from "@sahilpohare-blocknote/core";
 
 export const CreateLinkButton = <BSchema extends BlockSchema>(props: {
   editor: BlockNoteEditor<BSchema>;

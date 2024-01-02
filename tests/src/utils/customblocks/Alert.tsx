@@ -1,5 +1,9 @@
-import { BlockSchema, createBlockSpec, defaultProps } from "@blocknote/core";
-import { ReactSlashMenuItem } from "@blocknote/react";
+import {
+  BlockSchema,
+  createBlockSpec,
+  defaultProps,
+} from "@sahilpohare-blocknote/core";
+import { ReactSlashMenuItem } from "@sahilpohare-blocknote/react";
 import { RiAlertFill } from "react-icons/ri";
 const values = {
   warning: {

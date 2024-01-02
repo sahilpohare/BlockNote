@@ -6,7 +6,7 @@ import {
   getDefaultSlashMenuItems,
   InlineContentSchema,
   StyleSchema,
-} from "@blocknote/core";
+} from "@sahilpohare-blocknote/core";
 import {
   RiH1,
   RiH2,
@@ -17,7 +17,7 @@ import {
   RiTable2,
   RiText,
 } from "react-icons/ri";
-import { formatKeyboardShortcut } from "@blocknote/core";
+import { formatKeyboardShortcut } from "@sahilpohare-blocknote/core";
 import { ReactSlashMenuItem } from "./ReactSlashMenuItem";
 
 const extraFields: Record<

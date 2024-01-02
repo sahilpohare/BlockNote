@@ -1,10 +1,10 @@
-import { defaultBlockSpecs, defaultProps } from "@blocknote/core";
-import "@blocknote/core/style.css";
+import { defaultBlockSpecs, defaultProps } from "@sahilpohare-blocknote/core";
+import "@sahilpohare-blocknote/core/style.css";
 import {
   BlockNoteView,
   createReactBlockSpec,
   useBlockNote,
-} from "@blocknote/react";
+} from "@sahilpohare-blocknote/react";
 import "../vanilla-custom-blocks/style.css";
 
 type WindowWithProseMirror = Window & typeof globalThis & { ProseMirror: any };

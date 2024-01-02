@@ -5,7 +5,7 @@ import {
   SlashMenuProsemirrorPlugin,
   SuggestionsMenuState,
   SlashMenuQuery,
-} from "@blocknote/core";
+} from "@sahilpohare-blocknote/core";
 import Tippy from "@tippyjs/react";
 import { FC, useEffect, useMemo, useRef, useState } from "react";
 

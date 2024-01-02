@@ -8,11 +8,11 @@ import {
   HyperlinkToolbarProsemirrorPlugin,
   HyperlinkToolbarState,
   InlineContentSchema,
-} from "@blocknote/core";
+} from "@sahilpohare-blocknote/core";
 import Tippy from "@tippyjs/react";
 import { FC, useEffect, useMemo, useRef, useState } from "react";
 
-import { StyleSchema } from "@blocknote/core";
+import { StyleSchema } from "@sahilpohare-blocknote/core";
 import { DefaultHyperlinkToolbar } from "./DefaultHyperlinkToolbar";
 
 export type HyperlinkToolbarProps<

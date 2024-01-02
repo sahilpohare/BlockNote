@@ -1,10 +1,10 @@
 import { useCallback, useState } from "react";
-import { BlockNoteEditor, BlockSchema } from "@blocknote/core";
+import { BlockNoteEditor, BlockSchema } from "@sahilpohare-blocknote/core";
 import { RiIndentDecrease, RiIndentIncrease } from "react-icons/ri";
 
 import { ToolbarButton } from "../../../components-shared/Toolbar/ToolbarButton";
 import { useEditorChange } from "../../../hooks/useEditorChange";
-import { formatKeyboardShortcut } from "@blocknote/core";
+import { formatKeyboardShortcut } from "@sahilpohare-blocknote/core";
 
 export const NestBlockButton = <BSchema extends BlockSchema>(props: {
   editor: BlockNoteEditor<BSchema>;

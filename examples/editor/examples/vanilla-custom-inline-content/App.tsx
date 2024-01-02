@@ -1,9 +1,9 @@
 import {
   createInlineContentSpec,
   defaultInlineContentSpecs,
-} from "@blocknote/core";
-import "@blocknote/core/style.css";
-import { BlockNoteView, useBlockNote } from "@blocknote/react";
+} from "@sahilpohare-blocknote/core";
+import "@sahilpohare-blocknote/core/style.css";
+import { BlockNoteView, useBlockNote } from "@sahilpohare-blocknote/react";
 
 type WindowWithProseMirror = Window & typeof globalThis & { ProseMirror: any };
 

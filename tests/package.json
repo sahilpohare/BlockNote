@@ -1,5 +1,5 @@
 {
-  "name": "@blocknote/tests",
+  "name": "@sahilpohare-blocknote/tests",
   "private": true,
   "version": "0.10.2-slash-menu",
   "scripts": {
@@ -16,8 +16,8 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@blocknote/core": "^0.10.2-slash-menu",
-    "@blocknote/react": "^0.10.2-slash-menu",
+    "@sahilpohare-blocknote/core": "^0.10.2-slash-menu",
+    "@sahilpohare-blocknote/react": "^0.10.2-slash-menu",
     "@playwright/experimental-ct-react": "^1.38.1",
     "@playwright/test": "^1.38.1",
     "eslint": "^8.10.0",

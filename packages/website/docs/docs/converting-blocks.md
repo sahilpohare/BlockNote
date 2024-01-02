@@ -52,9 +52,9 @@ The output is simplified as Markdown does not support all features of BlockNote 
 
 ```typescript-vue /App.tsx
 import { useState } from "react";
-import { BlockNoteEditor } from "@blocknote/core";
-import { BlockNoteView, useBlockNote } from "@blocknote/react";
-import "@blocknote/core/style.css";
+import { BlockNoteEditor } from "@sahilpohare-blocknote/core";
+import { BlockNoteView, useBlockNote } from "@sahilpohare-blocknote/react";
+import "@sahilpohare-blocknote/core/style.css";
 
 export default function App() {
   // Stores the editor's contents as Markdown.
@@ -122,9 +122,9 @@ Tries to create `Block` and `InlineNode` objects based on Markdown syntax, thoug
 
 ```typescript-vue /App.tsx
 import { useEffect, useState } from "react";
-import { BlockNoteEditor, Block } from "@blocknote/core";
-import { BlockNoteView, useBlockNote } from "@blocknote/react";
-import "@blocknote/core/style.css";
+import { BlockNoteEditor, Block } from "@sahilpohare-blocknote/core";
+import { BlockNoteView, useBlockNote } from "@sahilpohare-blocknote/react";
+import "@sahilpohare-blocknote/core/style.css";
 
 export default function App() {
   // Stores the current Markdown content.
@@ -205,9 +205,9 @@ To better conform to HTML standards, children of blocks which aren't list items 
 
 ```typescript-vue /App.tsx
 import { useState } from "react";
-import { BlockNoteEditor } from "@blocknote/core";
-import { BlockNoteView, useBlockNote } from "@blocknote/react";
-import "@blocknote/core/style.css";
+import { BlockNoteEditor } from "@sahilpohare-blocknote/core";
+import { BlockNoteView, useBlockNote } from "@sahilpohare-blocknote/react";
+import "@sahilpohare-blocknote/core/style.css";
 
 export default function App() {
   // Stores the editor's contents as HTML.
@@ -274,9 +274,9 @@ Tries to create `Block` objects out of any HTML block-level elements, and `Inlin
 
 ```typescript-vue /App.tsx
 import { useEffect, useState } from "react";
-import { BlockNoteEditor, Block } from "@blocknote/core";
-import { BlockNoteView, useBlockNote } from "@blocknote/react";
-import "@blocknote/core/style.css";
+import { BlockNoteEditor, Block } from "@sahilpohare-blocknote/core";
+import { BlockNoteView, useBlockNote } from "@sahilpohare-blocknote/react";
+import "@sahilpohare-blocknote/core/style.css";
 
 export default function App() {
   // Stores the current HTML content.

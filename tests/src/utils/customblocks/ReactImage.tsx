@@ -1,5 +1,11 @@
-import { BlockSchemaWithBlock, defaultProps } from "@blocknote/core";
-import { ReactSlashMenuItem, createReactBlockSpec } from "@blocknote/react";
+import {
+  BlockSchemaWithBlock,
+  defaultProps,
+} from "@sahilpohare-blocknote/core";
+import {
+  ReactSlashMenuItem,
+  createReactBlockSpec,
+} from "@sahilpohare-blocknote/react";
 import { RiImage2Fill } from "react-icons/ri";
 
 export const ReactImage = createReactBlockSpec(

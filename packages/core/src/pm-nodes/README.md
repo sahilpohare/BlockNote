@@ -1,7 +1,6 @@
-### @blocknote/core/src/pm-nodes
+### @sahilpohare-blocknote/core/src/pm-nodes
 
 Defines the prosemirror nodes and base node structure. See below:
-
 
 # Node structure
 

@@ -4,7 +4,7 @@ import {
   BlockSchema,
   InlineContentSchema,
   StyleSchema,
-} from "@blocknote/core";
+} from "@sahilpohare-blocknote/core";
 import { Menu, createStyles } from "@mantine/core";
 import { ReactNode } from "react";
 

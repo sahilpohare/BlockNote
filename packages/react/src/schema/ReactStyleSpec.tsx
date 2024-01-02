@@ -4,7 +4,7 @@ import {
   getStyleParseRules,
   StyleConfig,
   stylePropsToAttributes,
-} from "@blocknote/core";
+} from "@sahilpohare-blocknote/core";
 import { Mark } from "@tiptap/react";
 import { FC } from "react";
 import { renderToDOMSpec } from "./@util/ReactRenderUtil";

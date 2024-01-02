@@ -34,8 +34,8 @@ Play with the editor @ [https://blocknote-main.vercel.app/](https://blocknote-ma
 [![npm version](https://badge.fury.io/js/%40blocknote%2Freact.svg)](https://badge.fury.io/js/%40blocknote%2Freact)
 
 ```typescript
-import { BlockNoteView, useBlockNote } from "@blocknote/react";
-import "@blocknote/core/style.css";
+import { BlockNoteView, useBlockNote } from "@sahilpohare-blocknote/react";
+import "@sahilpohare-blocknote/core/style.css";
 
 function App() {
   const editor = useBlockNote({
@@ -49,9 +49,9 @@ function App() {
 }
 ```
 
-`@blocknote/react` comes with a fully styled UI that makes it an instant, polished editor ready to use in your app.
+`@sahilpohare-blocknote/react` comes with a fully styled UI that makes it an instant, polished editor ready to use in your app.
 
-If you prefer to create your own UI components (menus), or don't want to use React, you can use `@blocknote/core` (_advanced_, [see docs](https://www.blocknotejs.org/docs/vanilla-js)).
+If you prefer to create your own UI components (menus), or don't want to use React, you can use `@sahilpohare-blocknote/core` (_advanced_, [see docs](https://www.blocknotejs.org/docs/vanilla-js)).
 
 # Features
 

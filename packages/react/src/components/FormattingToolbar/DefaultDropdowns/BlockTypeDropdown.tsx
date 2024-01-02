@@ -1,4 +1,8 @@
-import { Block, BlockNoteEditor, BlockSchema } from "@blocknote/core";
+import {
+  Block,
+  BlockNoteEditor,
+  BlockSchema,
+} from "@sahilpohare-blocknote/core";
 import { useMemo, useState } from "react";
 import { IconType } from "react-icons";
 import {

@@ -7,7 +7,7 @@ import {
   blockToNode,
   nodeToBlock,
   partialBlockToBlockForTesting,
-} from "@blocknote/core";
+} from "@sahilpohare-blocknote/core";
 import { customReactBlockSchemaTestCases } from "./testCases/customReactBlocks";
 import { customReactInlineContentTestCases } from "./testCases/customReactInlineContent";
 import { customReactStylesTestCases } from "./testCases/customReactStyles";
